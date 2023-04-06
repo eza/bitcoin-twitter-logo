@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Bitcoin Twitter Logo",
+    "version": "1.0",
+    "description": "A simple Chrome extension to replace the Twitter logo with a Bitcoin logo",
+    "permissions": [
+        "https://twitter.com/*",
+        "webNavigation",
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://twitter.com/*"
+            ],
+            "js": [
+                "script.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_title": "Bitcoin Twitter Logo"
+    }
+}
