@@ -32,7 +32,7 @@ Follow these steps to install the extension:
 
 ### Usage
 
-* Visit [https://twitter.com](https://twitter.com) and see the Twitter logo replaced with a Bitcoin logo.
+* Visit [https://twitter.com](https://twitter.com) and see the Twitter logo replaced with a Bitcoin logo. (⚠️ You might need to give the extension permission to run on Twitter, just once.)
 
 ### Support & Feedback
 
